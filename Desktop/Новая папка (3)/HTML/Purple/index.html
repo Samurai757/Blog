@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Demo</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <main>
+            <h1>Свяжитесь со мной</h1>
+            <form action="/test">
+                <div class="field">
+                    <img src="./img/message.svg" alt="иконка message" />
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Введите Email"
+                        name="email"
+                        required
+                    />
+                </div>
+                <div class="field">
+                    <img src="./img/telegram.svg" alt="иконка telegram" />
+                    <label for="telegram">Telegtam</label>
+                    <input
+                        type="text"
+                        id="telegram"
+                        placeholder="Введите Telegram"
+                        name="telegram"
+                    />
+                </div>
+                <div class="field">
+                    <img src="./img/topic.svg" alt="иконка topic" />
+                    <label for="topic">Тема</label>
+                    <select name="topic" id="topic" required>
+                        <option value="courses">Приобретение курсов</option>
+                        <option value="feedback">Обратная связь</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="comment">Комментарий</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10">
+                    </textarea>
+                </div>
+                <button>Отправить</button>
+            </form>
+        </main>
+    </body>
+</html>
