@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 0 40px 120px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.16667;
+    letter-spacing: 0.02em;
+    margin-bottom: 19px;
+}
+.sectionText {
+    font-size: 18px;
+    line-height: 1.33333;
+    color: rgba(5, 0, 56, 0.6);
+    margin-bottom: 39px;
+}
+.link {
+    font-size: 18px;
+    line-height: 1.33333;
+    color: #4262ff;
+}
+header {
+    margin-bottom: 120px;
+}
+header nav ul li a {
+    color: #050038;
+    text-decoration: none;
+}
+nav {
+    margin-top: 33px;
+    margin-bottom: 34px;
+}
+hr {
+    color: #f0f0f0;
+}
+.TeamWork {
+    color: #050038;
+    font-weight: 400;
+}
+h1 {
+    font-size: 48px;
+    line-height: 1.16667;
+    letter-spacing: 0.02em;
+    margin-bottom: 17px;
+}
+.heroText {
+    font-size: 18px;
+    line-height: 1.33333;
+    margin-bottom: 55px;
+}
+#email {
+    border: 1px solid #9b99af;
+    border-radius: 32px;
+    width: 440px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+#heroButton {
+    border: 1px solid #4262ff;
+    border-radius: 32px;
+    width: 440px;
+    height: 51px;
+    background: #4262ff;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.heroForm p {
+    font-size: 14px;
+    line-height: 1.42857;
+}
+.UniversalTeam {
+    margin-bottom: 40px;
+}
+.footer {
+    background: #050038;
+    padding-top: 47px;
+    padding-left: 40px;
+    padding-bottom: 46px;
+    display: flex;
+    align-items: center;
+}
+.footer__logo {
+    color: #fff;
+}
+.items a {
+    font-size: 16px;
+    line-height: 1.5;
+    /* text-align: center; */
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
