@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Формы</title>
+        <link rel="stylesheet" href="/2-Form/main.css" />
+    </head>
+    <body>
+        <main>
+            <form action="/search" method="get">
+                <h1>Регистрация</h1>
+                <p>
+                    Уже есть аккаунт?
+                    <a href="#">Войти</a>
+                </p>
+                <div class="user">
+                    <label for="text">
+                        <input
+                            class="input input-1"
+                            type="text"
+                            id="text"
+                            placeholder="Моя компания"
+                        />
+                    </label>
+                    <div class="userName">
+                        <label for="name">
+                            <input
+                                class="input input-50"
+                                type="text"
+                                id="name"
+                                placeholder="Имя"
+                            />
+                        </label>
+                        <label for="surname">
+                            <input
+                                class="input input-50"
+                                type="text"
+                                id="surname"
+                                placeholder="Фамилия"
+                            />
+                        </label>
+                    </div>
+                    <label for="email">
+                        <input
+                            class="input"
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="E-mail"
+                        />
+                    </label>
+                    <button type="submit">
+                        Зарегистрироваться
+                        <img src="/img/Arrow1.png" alt="стрелка" />
+                    </button>
+                    <div class="check-box">
+                        <input type="checkbox" name="agree" id="agree" />
+                        <label for="agree" id="agree__text">
+                            Я прочитал и принимаю
+                            <span>Условия использования</span>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
