@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f39494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #fffefe;
+    padding-top: 72px;
+    padding-bottom: 91px;
+    width: 582px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #666;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 47px;
+}
+a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #089fe0;
+    padding-left: 6px;
+}
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 0 93px;
+}
+.userName {
+    display: flex;
+    gap: 6px;
+}
+.userName label {
+    display: flex; /* делаем label флекс-контейнером */
+    flex: 1; /* чтобы он растягивался на равную ширину */
+}
+.input-50 {
+    flex: 1;
+    width: 100%;
+}
+.input {
+    height: 44px;
+    width: 100%;
+    border-radius: 5px;
+    background: #f5f5f5;
+    border: none;
+}
+.input-1 {
+    height: 44px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #f5f5f5;
+    background: #fff;
+}
+.input::placeholder {
+    font-style: italic;
+    font-size: 16px;
+    color: #999;
+    padding: 9px 11px;
+}
+.input-1::placeholder {
+    font-style: normal;
+    padding: 9px 11px;
+}
+button {
+    border-radius: 5px;
+    height: 44px;
+    background: #089fe0;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 9px 102px;
+    border: none; /* или другое оформление границы */
+    gap: 56px; /* добавляем расстояние между элементами */
+}
+.check-box {
+    display: flex;
+    
+}
+#agree {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 15px;
+    height: 16px;
+    background: #f5f5f5;    
+}
+#agree__text {
+    font-size: 14px;
+    color: #666;  
+    padding-left: 4px;  
+}
+#agree__text span {
+    font-size: 14px;
+    color: #089fe0;
+    padding-left: 11px;
+}
